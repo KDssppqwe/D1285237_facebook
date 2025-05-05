@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f0f2f5;
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+header .logo {
+    margin-top: 40px;
+    width: 200px;
+}
+
+.login-box {
+    background-color: white;
+    padding: 20px 20px 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    width: 360px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.login-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.login-button button, .create-button button {
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-button button {
+    background-color: #1877f2;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.create-button .green {
+    background-color: #42b72a;
+    color: white;
+}
+
+.forgot-link {
+    color: #1877f2;
+    font-size: 14px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.text-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #606770;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.text-divider::before,
+.text-divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 20px;
+}
+
+section {
+    border:1px #808080 solid;
+    padding: 10px;
+    margin:30px;
+}
+footer {
+    max-width: 980px;
+    margin-top: 60px;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #737373;
+}
+footer ul {
+     list-style: none;
+     padding: 0;
+     margin: 0 0 10px 0;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 10px;
+}
+footer li {
+    display: inline-flex;
+}
+.clickable {
+    cursor: pointer;
+    color: #385898;           /* Facebook 藍色 */
+    text-decoration: none;
+    font-size: 12px;
+}
+ul {
+     list-style: none;       /* 移除前面的點點 */
+     padding: 0;
+     margin: 0;
+     display: flex;          /* 將 <li> 變為橫向排列 */
+     flex-wrap: wrap;        /* 如果太長自動換行（可選） */
+     gap: 10px;              /* 每個項目的間距（可調整） */
+}
+li {
+    margin: 0;
+}
