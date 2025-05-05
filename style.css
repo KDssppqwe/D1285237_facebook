@@ -89,11 +89,6 @@ header .logo {
     margin: 20px;
 }
 
-section {
-    border:1px #808080 solid;
-    padding: 10px;
-    margin:30px;
-}
 footer {
     max-width: 980px;
     margin-top: 60px;
@@ -120,15 +115,4 @@ footer li {
     color: #385898;           /* Facebook 藍色 */
     text-decoration: none;
     font-size: 12px;
-}
-ul {
-     list-style: none;       /* 移除前面的點點 */
-     padding: 0;
-     margin: 0;
-     display: flex;          /* 將 <li> 變為橫向排列 */
-     flex-wrap: wrap;        /* 如果太長自動換行（可選） */
-     gap: 10px;              /* 每個項目的間距（可調整） */
-}
-li {
-    margin: 0;
 }
